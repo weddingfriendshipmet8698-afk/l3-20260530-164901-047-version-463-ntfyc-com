@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-root="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索影片-高清剧集大全</title>
+  <meta name="description" content="推荐国产剧栏目按类型与热度整理片单，覆盖不同题材的国产电视剧。">
+  <meta name="keywords" content="推荐国产剧,国产剧片单,高清剧集,在线播放,国产电视剧,精选国产剧,剧集推荐">
+  <link rel="stylesheet" href="assets/css/original-tailwind.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a class="logo" href="index.html" aria-label="高清剧集大全">
+          <span class="logo-mark">▶</span>
+          <span>
+            <strong class="logo-title">高清剧集大全</strong>
+            <span class="logo-subtitle">热播影视在线观看</span>
+          </span>
+        </a>
+        <nav class="nav" aria-label="主导航">
+          <a href="index.html">首页</a>
+          <a href="categories.html">分类</a>
+          <a href="rankings.html">排行榜</a>
+          <a href="search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="search.html" method="get">
+          <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+          <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+      </div>
+      <div class="mobile-panel" data-mobile-panel>
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类总览</a>
+        <a href="rankings.html">排行榜</a>
+        <a href="search.html">搜索</a>
+          <a href="category/domestic-drama.html">国产剧集</a>
+          <a href="category/chinese-film.html">华语电影</a>
+          <a href="category/suspense-crime.html">悬疑犯罪</a>
+          <a href="category/costume-fantasy.html">古装奇幻</a>
+          <a href="category/romance-drama.html">爱情剧情</a>
+          <a href="category/action-adventure.html">动作冒险</a>
+          <a href="category/comedy-family.html">喜剧家庭</a>
+          <a href="category/animation.html">动画动漫</a>
+        <form class="header-search" action="search.html" method="get">
+          <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>搜索影片</h1>
+        <p>输入片名、类型、地区、标签或剧情关键词，快速定位对应详情页与播放入口。</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar" style="grid-template-columns: minmax(0, 1fr);">
+          <input type="search" data-search-page-input placeholder="搜索影片、题材、地区或关键词..." aria-label="搜索影片">
+        </div>
+        <div data-search-results></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>高清剧集大全</h3>
+        <p>推荐国产剧栏目按类型与热度整理片单，覆盖不同题材的国产电视剧。</p>
+      </div>
+      <div>
+        <h4>热门分类</h4>
+        <div class="footer-links">
+          <a href="category/domestic-drama.html">国产剧集</a>
+          <a href="category/chinese-film.html">华语电影</a>
+          <a href="category/suspense-crime.html">悬疑犯罪</a>
+          <a href="category/costume-fantasy.html">古装奇幻</a>
+          <a href="category/romance-drama.html">爱情剧情</a>
+          <a href="category/action-adventure.html">动作冒险</a>
+        </div>
+      </div>
+      <div>
+        <h4>精选片单</h4>
+        <div class="footer-links">
+          <a href="category/comedy-family.html">喜剧家庭</a>
+          <a href="category/animation.html">动画动漫</a>
+          <a href="category/documentary-biography.html">纪录传记</a>
+          <a href="category/sci-fi-thriller.html">科幻惊悚</a>
+          <a href="category/japan-korea.html">日韩精选</a>
+          <a href="category/europe-america.html">欧美精选</a>
+        </div>
+      </div>
+      <div>
+        <h4>站内导航</h4>
+        <div class="footer-links">
+          <a href="index.html">首页</a>
+          <a href="categories.html">分类总览</a>
+          <a href="rankings.html">排行榜</a>
+          <a href="search.html">搜索影片</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/data/movies-data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
